@@ -1,0 +1,610 @@
+.nav-bg {
+  background: #d6136a;
+}
+
+/* body {
+  background: #282262;
+  overflow-x: hidden;
+} */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.traditional-blue {
+  background: #282262;
+}
+
+.header-arch {
+  background-image: url("../img/traditional_wedding_header_arch.png");
+	background-repeat: repeat-x;	
+  height: auto;  
+}
+
+
+.title-style {
+  font-family: 'Gorditas', cursive;
+  color: white;
+}
+
+.subtitle-style {
+  font-family: 'Karla', sans-serif;
+  color: white;
+}
+
+.karla-font {
+  font-family: 'Karla', sans-serif;
+}
+
+hr.style_section {
+  border: 5px solid #ff3547;
+}
+
+.divider-arch {
+  background-image: url("../img/traditional_arch_border.png");
+	background-repeat: repeat-x;	
+  height: 40px;  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+    .header-img-border {
+      border: 25px solid transparent;  
+      border-image: url("../img/traditional_wedding_header_frame.png") ;  
+      -webkit-border-image: url("../img/traditional_wedding_header_frame.png") 45 round; /* Safari 3.1-5 */
+      -o-border-image: url("../img/traditional_wedding_header_frame.png") 45 round; /* Opera 11-12.1 */
+      max-width: 350px;
+      width: 100%;
+      height: auto;
+    }
+
+    .header-img {
+      max-width: 350px;
+      width: 100%;
+	    height: auto;
+    }
+
+    .header-reception-border {
+      border: 25px solid transparent;  
+      border-image: url("../img/traditional_wedding_reception_frame.png") ;  
+      -webkit-border-image: url("../img/traditional_wedding_reception_frame.png") 45 round; /* Safari 3.1-5 */
+      -o-border-image: url("../img/traditional_wedding_reception_frame.png") 45 round; /* Opera 11-12.1 */
+      max-width: 350px;
+      width: 100%;
+      height: auto;
+    }
+
+    .divider-arch-width {
+      width: 320px;
+    }
+    
+    .subtitle-style {
+        font-size: 40px;
+    }
+
+    iframe {
+        width: 82%;
+        height: 225px;
+    }
+  } 
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        
+    .header-img-border {
+      border: 25px solid transparent;  
+      border-image: url("../img/traditional_wedding_header_frame.png") ;  
+      -webkit-border-image: url("../img/traditional_wedding_header_frame.png") 45 round; /* Safari 3.1-5 */
+      -o-border-image: url("../img/traditional_wedding_header_frame.png") 45 round; /* Opera 11-12.1 */
+      max-width: 550px;
+      width: 100%;
+      height: auto;
+    }
+
+    .header-img {
+      max-width: 450px;
+      width: 100%;
+	    height: auto;
+    }
+
+    .header-reception-border {
+      border: 30px solid transparent;  
+      border-image: url("../img/traditional_wedding_reception_frame.png") ;  
+      -webkit-border-image: url("../img/traditional_wedding_reception_frame.png") 50 round; /* Safari 3.1-5 */
+      -o-border-image: url("../img/traditional_wedding_reception_frame.png") 50 round; /* Opera 11-12.1 */
+      max-width: 450px;
+      width: 100%;
+      height: auto;
+    }
+
+    .divider-arch-width {
+      width: 560px;
+    }
+
+    iframe {
+      width: 82%;
+      height: 300px;
+    }
+  } 
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .divider-arch-width {
+    width: 720px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .divider-arch-width {
+    width: 960px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .divider-arch-width {
+    width: 1120px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+  .divider-arch-width {
+    width: 1360px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+  .divider-arch-width {
+    width: 1520px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1800px and up) */
+@media only screen and (min-width: 1800px) {
+  .divider-arch-width {
+    width: 1680px;
+  }
+}
+
+
+  /* couple card */
+  .couple-block {
+    height: auto;
+    width: auto;
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(../../font-awesome/4-4-0/css/font-awesome.min.css);
+.snip1359 {
+  font-family: 'Gorditas', cursive;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  padding-top: 120px;
+}
+
+.snip1359-bride {
+    background-color: #d6136a;
+}
+
+.snip1359-groom {
+    background-color: #03A9F4;
+}
+
+.snip1359 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1359 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+
+.figcaption-bride {
+    background-color: #AF004D;
+}
+
+.figcaption-bride:before {
+    border-color: transparent transparent transparent #AF004D;
+}
+
+.figcaption-groom {
+    background-color: #0288D1;
+}
+
+.figcaption-groom:before {
+    border-color: transparent transparent transparent #0288D1;
+}
+
+.snip1359 figcaption {
+  width: 100%;
+  padding: 25px;
+  min-height: 300px;
+  position: relative;
+}
+.snip1359 figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  
+}
+.snip1359 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.snip1359 h3 {
+  font-size: 1.3em;
+  margin: 25px;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+.snip1359 h3 span {
+  display: block;
+  font-size: 0.65em;
+  color: #ffffff;
+}
+.snip1359 blockquote {
+  margin: 0 0 10px;
+  padding: 0 0 30px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  font-weight: 300;
+  font-family: 'Karla', sans-serif;
+}
+.snip1359 blockquote:after {
+  font-family: 'Karla', sans-serif;
+  content: "\201C";
+  position: absolute;
+  font-size: 180px;
+  line-height: 1em;
+  color: #212121;
+  font-style: normal;
+  content: "\201D";
+  right: 20px;
+  bottom: -105px;
+}
+
+  /* end of couple card */
+  #clockdiv{
+  font-family: 'Karla', sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #d6136a;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #AF004D;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+  /* countdown timer end */
+
+  /* timeline */
+  .main-timeline{
+    overflow: hidden;
+    position: relative;
+}
+.main-timeline:before{
+    content: "";
+    width: 10px;
+    height: 100%;
+    background: #95a5a5;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main-timeline .timeline{
+    width: 50%;
+    padding: 0 60px 0 70px;
+    float: right;
+    text-align: center;
+    position: relative;
+}
+.main-timeline .timeline-content{
+    display: block;
+    padding: 35px;
+    background: #03A9F4;
+    border-radius: 20px;
+    position: relative;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-content:before{
+    content: "";
+    width: 80px;
+    height: 20px;
+    background: #03A9F4;
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+}
+.main-timeline .timeline-content:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2d3e50;
+    position: absolute;
+    bottom: 12px;
+    left: -20px;
+}
+.main-timeline .icon{
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 15px;
+    background: #03A9F4;
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: -120px;
+    z-index: 1;
+}
+.main-timeline .icon:after{
+    content: "";
+    border: 5px dotted #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+}
+.main-timeline .title{
+    display: inline-block;
+    padding-bottom: 7px;
+    margin: 0 0 10px 0;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-timeline .description{
+    font-size: 14px;
+    color: #fff;
+    margin: 0 0 5px 0;
+}
+.main-timeline .timeline:nth-child(2n){ padding: 0 70px 0 60px; }
+.main-timeline .timeline:nth-child(2n) .timeline-content:before{
+    left: auto;
+    right: -50px;
+}
+.main-timeline .timeline:nth-child(2n) .timeline-content:after{
+    left: auto;
+    right: -20px;
+}
+.main-timeline .timeline:nth-child(2n) .icon{
+    left: auto;
+    right: -120px;
+}
+.main-timeline .timeline:nth-child(2){ margin-top: 150px; }
+.main-timeline .timeline:nth-child(odd){ margin: -150px 0 0 0; }
+.main-timeline .timeline:nth-child(even){ margin-bottom: 120px; }
+.main-timeline .timeline:first-child,
+.main-timeline .timeline:last-child:nth-child(even){ margin: 0; }
+.main-timeline .timeline:nth-child(2n) .timeline-content,
+.main-timeline .timeline:nth-child(2n) .timeline-content:before,
+.main-timeline .timeline:nth-child(2n) .icon{ background: #F57C00; }
+.main-timeline .timeline:nth-child(3n) .timeline-content,
+.main-timeline .timeline:nth-child(3n) .timeline-content:before,
+.main-timeline .timeline:nth-child(3n) .icon{ background: #d6136a; }
+.main-timeline .timeline:nth-child(4n) .timeline-content,
+.main-timeline .timeline:nth-child(4n) .timeline-content:before,
+.main-timeline .timeline:nth-child(4n) .icon{ background: #0cbe2d; }
+@media only screen and (max-width: 990px){
+    .main-timeline .timeline{ padding-right: 0; }
+    .main-timeline .timeline:nth-child(2n){ padding-left: 0; }
+}
+@media only screen and (max-width: 767px){
+    .main-timeline:before{ display: none; }
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even),
+    .main-timeline .timeline:nth-child(odd){
+        width: 100%;
+        float: none;
+        padding: 0 0 0 120px;
+        margin: 0 0 30px 0;
+    }
+    .main-timeline .timeline-content{ padding: 12px; }
+    .main-timeline .timeline:nth-child(2n) .timeline-content:before{
+        right: auto;
+        left: -50px;
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content:after{
+        right: auto;
+        left: -20px;
+    }
+    .main-timeline .timeline:nth-child(2n) .icon{
+        right: auto;
+        left: -120px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .main-timeline .title{ font-size: 16px; }
+}
+/* time line end */
+
+/* Events */
+.card_title span{
+    color: white;
+    position: relative;
+    right: 10px;
+    bottom: 4px;
+    font-size: 20px;
+}
+.card_title h2{
+    display: inline-block;
+}
+
+.main-events-title {
+  font-family: 'Gorditas', cursive;
+  color: #ffffff;
+  }
+  
+.main-event-icon{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* Events end */
+
+  /* Gallery start */
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+  .snip1580 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 8px;
+    min-width: 300px;
+    max-width: 300px;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  .snip1580 * {
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .snip1580 img {
+    max-width: 100%;
+    vertical-align: top;
+    width: 100%;
+  }
+  .snip1580 figcaption {
+    position: absolute;
+    height: 96px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.50);
+  }
+  .snip1580 h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 3px 0;
+  }
+  .snip1580 h5 {
+    font-weight: 400;
+    margin: 0;
+    color: #bbb;
+    letter-spacing: 1px;
+  }
+  .snip1580 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .snip1580:hover figcaption,
+  .snip1580.hover figcaption {
+    height: calc(85%);
+    background-color: rgba(241,78,149, 0.75);
+  }
+  .snip1580:hover h3,
+  .snip1580.hover h3,
+  .snip1580:hover h5,
+  .snip1580.hover h5 {
+    color: #ffffff;
+  }
+  /* Gallery end */
+
+/* google map */
+.google_map {
+    height: 500px;
+  }
+/* google map */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .arch-margin-top {
+    margin-top: 50px;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .arch-margin-top {
+    margin-top: 50px;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .arch-margin-top {
+    margin-top: 50px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .arch-margin-top {
+    margin-top: 50px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .arch-margin-top {
+    margin-top: 68px;
+  }
+}

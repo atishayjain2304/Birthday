@@ -1,0 +1,508 @@
+body {
+    background: #2a2066;
+    text-align: center;
+}
+
+.box {
+	padding: 1em;
+	border: 16px solid transparent;
+	border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em,
+	              #58a 0, #58a 3em, transparent 0, transparent 4em);
+	
+	max-width: 20em;
+	font: 100%/1.6 Baskerville, Palatino, serif;
+}
+
+.custom-footer a {
+  color: white;
+}
+
+hr.style_section {
+    border: 1px solid #ff3547;
+}
+
+.header-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Berkshire Swash', cursive;
+*/
+
+.header-couple-names {
+    font-family: 'Berkshire Swash', cursive;
+    color: #8BC34A;
+    font-size: 60px;
+  }
+
+  .header-invitation-text {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+      width: 65%;
+  }
+
+  .couples-title {
+    font-family: 'Berkshire Swash', cursive;
+    color: #8BC34A;
+    font-size: 60px;
+  }
+ 
+
+iframe {
+    height: 680px;
+    width: 94%;
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 600px) {
+    .header-couple-names {
+        font-size: 40px;
+    }
+    .couples-title {
+        font-size: 40px;
+    }
+
+    iframe {
+        width: 82%;
+        height: 225px;
+    }
+  } 
+  
+  @media screen and (max-width: 768px) {
+    iframe {
+      width: 82%;
+      height: 300px;
+    }
+  } 
+
+  /* couple card */
+  .couple-block {
+    height: auto;
+    width: auto;
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(../../font-awesome/4-4-0/css/font-awesome.min.css);
+.snip1359 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  padding-top: 120px;
+}
+
+.snip1359-bride {
+    background-color: #f44336;
+}
+
+.snip1359-groom {
+    background-color: #03A9F4;
+}
+
+.snip1359 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1359 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+  width: 100%;
+}
+
+.figcaption-bride {
+    background-color: #d32f2f;
+}
+
+.figcaption-bride:before {
+    border-color: transparent transparent transparent #d32f2f;
+}
+
+.figcaption-groom {
+    background-color: #0288D1;
+}
+
+.figcaption-groom:before {
+    border-color: transparent transparent transparent #0288D1;
+}
+
+.snip1359 figcaption {
+  width: 100%;
+  padding: 25px;
+  min-height: 300px;
+  position: relative;
+  margin-top: 28px;
+}
+.snip1359 figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  
+}
+.snip1359 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.snip1359 h3 {
+  font-size: 1.3em;
+  margin: 25px;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+.snip1359 h3 span {
+  display: block;
+  font-size: 0.65em;
+  color: #ffffff;
+}
+.snip1359 blockquote {
+  margin: 0 0 10px;
+  padding: 0 0 30px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  font-style: italic;
+  font-weight: 300;
+}
+.snip1359 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 180px;
+  line-height: 1em;
+  color: #212121;
+  font-style: normal;
+  content: "\201D";
+  right: 20px;
+  bottom: -105px;
+}
+
+  /* end of couple card */
+  #clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #F57C00;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #E65100;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+  /* countdown timer end */
+
+  /* timeline */
+  .main-timeline{
+    overflow: hidden;
+    position: relative;
+}
+.main-timeline:before{
+    content: "";
+    width: 10px;
+    height: 100%;
+    background: #95a5a5;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main-timeline .timeline{
+    width: 50%;
+    padding: 0 60px 0 70px;
+    float: right;
+    text-align: center;
+    position: relative;
+}
+.main-timeline .timeline-content{
+    display: block;
+    padding: 35px;
+    background: #0c85e7;
+    border-radius: 20px;
+    position: relative;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-content:before{
+    content: "";
+    width: 80px;
+    height: 20px;
+    background: #0c85e7;
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+}
+.main-timeline .timeline-content:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2d3e50;
+    position: absolute;
+    bottom: 12px;
+    left: -20px;
+}
+.main-timeline .icon{
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 15px;
+    background: #dc3545 !important;
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: -120px;
+    z-index: 1;
+}
+.main-timeline .icon:after{
+    content: "";
+    border: 5px dotted #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+}
+.main-timeline .title{
+    display: inline-block;
+    padding-bottom: 7px;
+    margin: 0 0 10px 0;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-timeline .description{
+    font-size: 14px;
+    color: #fff;
+    margin: 0 0 5px 0;
+}
+.main-timeline .timeline:nth-child(2n){ padding: 0 70px 0 60px; }
+.main-timeline .timeline:nth-child(2n) .timeline-content:before{
+    left: auto;
+    right: -50px;
+}
+.main-timeline .timeline:nth-child(2n) .timeline-content:after{
+    left: auto;
+    right: -20px;
+}
+.main-timeline .timeline:nth-child(2n) .icon{
+    left: auto;
+    right: -120px;
+}
+.main-timeline .timeline:nth-child(2){ margin-top: 150px; }
+.main-timeline .timeline:nth-child(odd){ margin: -150px 0 0 0; }
+.main-timeline .timeline:nth-child(even){ margin-bottom: 120px; }
+.main-timeline .timeline:first-child,
+.main-timeline .timeline:last-child:nth-child(even){ margin: 0; }
+.main-timeline .timeline:nth-child(2n) .timeline-content,
+.main-timeline .timeline:nth-child(2n) .timeline-content:before,
+.main-timeline .timeline:nth-child(2n) .icon{ background: #F57C00; }
+.main-timeline .timeline:nth-child(3n) .timeline-content,
+.main-timeline .timeline:nth-child(3n) .timeline-content:before,
+.main-timeline .timeline:nth-child(3n) .icon{ background: #f73757; }
+.main-timeline .timeline:nth-child(4n) .timeline-content,
+.main-timeline .timeline:nth-child(4n) .timeline-content:before,
+.main-timeline .timeline:nth-child(4n) .icon{ background: #0cbe2d; }
+@media only screen and (max-width: 990px){
+    .main-timeline .timeline{ padding-right: 0; }
+    .main-timeline .timeline:nth-child(2n){ padding-left: 0; }
+}
+@media only screen and (max-width: 767px){
+    .main-timeline:before{ display: none; }
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even),
+    .main-timeline .timeline:nth-child(odd){
+        width: 100%;
+        float: none;
+        padding: 0 0 0 120px;
+        margin: 0 0 30px 0;
+    }
+    .main-timeline .timeline-content{ padding: 12px; }
+    .main-timeline .timeline:nth-child(2n) .timeline-content:before{
+        right: auto;
+        left: -50px;
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content:after{
+        right: auto;
+        left: -20px;
+    }
+    .main-timeline .timeline:nth-child(2n) .icon{
+        right: auto;
+        left: -120px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .main-timeline .title{ font-size: 16px; }
+}
+/* time line end */
+
+/* Events */
+.main-events-title {
+    font-family: 'Abril Fatface', cursive;
+    color: #ffffff;
+  }
+  
+.main-event-icon{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .main-event-margin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  /* Events end */
+
+  /* gallery start */
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600;);
+  .snip1571 {
+    background-color: #000;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin: 10px 7px;
+    width: 300px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+  }
+  .snip1571 *,
+  .snip1571 *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1571 img {
+    backface-visibility: hidden;
+    max-width: 100%;
+    vertical-align: top;
+  }
+  .snip1571 figcaption {
+    position: absolute;
+    height: 92px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    padding: 8px;
+    background-color: rgba(199,50,50, 0.80);
+  }
+  
+  .snip1571 h3 {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 5px 10px;
+    z-index: 1;
+  }
+
+  .snip1571 p {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px 10px;
+    z-index: 1;
+  }
+
+  .snip1571 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .snip1571:hover > img,
+  .snip1571.hover > img {
+    transform: scale(1.5);
+  }
+/* gallery end */
+
+
+.section_countdown{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+
+.section_countdown #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section_countdown #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+.section_countdown #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
+.section_countdown .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+

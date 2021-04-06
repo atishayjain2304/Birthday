@@ -149,6 +149,10 @@
   initConfetti();
   render();
 
+  console.log('nikhil');
+  document.getElementById('playAudio').muted = false;
+  document.getElementById('playAudio').play()
+
 //----------Resize----------
   window.addEventListener('resize', function () {
     resizeCanvas();
@@ -160,10 +164,3 @@
   });
 
 }).call(this);
-
-$('.frame').tilt({
-    perspective: 1000,
-    scale: 1,
-    speed: 1000,
-    maxTilt:20,
-  })

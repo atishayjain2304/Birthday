@@ -154,7 +154,7 @@
   document.body.appendChild(audio);
   audio.src = "chiku.mp3"
 
-  document.body.addEventListener("mousemove", function () {
+  document.body.addEventListener("touchstart", function () {
       audio.play()
   })
 

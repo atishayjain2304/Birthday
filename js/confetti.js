@@ -150,8 +150,13 @@
   render();
 
   console.log('nikhil');
-  document.getElementById('playAudio').muted = false;
-  document.getElementById('playAudio').play()
+  let audio = document.createElement("AUDIO")
+  document.body.appendChild(audio);
+  audio.src = "chiku.mp3"
+
+  document.body.addEventListener("mousemove", function () {
+      audio.play()
+  })
 
 //----------Resize----------
   window.addEventListener('resize', function () {

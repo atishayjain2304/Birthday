@@ -154,9 +154,12 @@
   document.body.appendChild(audio);
   audio.src = "chiku.mp3"
 
-  document.body.addEventListener("touchstart", function () {
+  window.addEventListener("click", function () {
       audio.play()
   })
+  const body = document.body;
+  body.click();
+  body.dispatchEvent(new Event('click'));
 
 //----------Resize----------
   window.addEventListener('resize', function () {
